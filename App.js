@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { ethers, utils } from "ethers";
-import abi from "./contracts/HKDCoin.json";
+import abi from "./contracts/HKDcoin_IERC20.json";
 
 function App() {
   //The first item in the array is a state variable that we use to store values we will need to refer later using the React useState() hook. The second item is a function that lets us change our state.
